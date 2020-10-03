@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    top: 0;
+    padding: 20px 20px 15px 40px;
+    width: 100%;
+    z-index: 100;
+    transition: all ease-in 0.3s;
+}
+
+.header_black {
+    background-color: #111;
+    padding: 15px 20px 10px 40px;
+}
+
+.header_logo {
+    width: 100px;
+    object-fit: contain;
+}
