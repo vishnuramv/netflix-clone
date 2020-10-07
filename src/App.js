@@ -7,7 +7,6 @@ import requests from "./request";
 function App() {
 	return (
 		<div className="App">
-			{/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
 			<Header />
 			<Banner />
 			<Row titles="Trending Now" fetchUrl={requests.fetchTrending} />
